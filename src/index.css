@@ -5,9 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./components/w7.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  padding: 100px;
+  width: 600px;
+  padding: auto;
+  margin: auto;
+  border: 5px solid rgb(185, 181, 181);
+}
+
+.wInput{
+  font-size: 20px;
+}
+
+.wButton{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.weatherList{
+  color: rgb(31, 5, 92);
+  width: 600px;
+  padding: auto;
+  margin: auto;
+
+
+}
+span{
+  color: rgb(235, 235, 235);
 }
